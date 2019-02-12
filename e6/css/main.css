@@ -1,0 +1,19 @@
+body {
+		margin: 0;
+		padding: 0;
+}
+div {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	float: left;
+}
+div:nth-child(n+3) {
+	background-color:red;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
