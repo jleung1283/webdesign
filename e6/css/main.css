@@ -1,19 +1,126 @@
 body {
 		margin: 0;
 		padding: 0;
+		background-color: black;
+}
+a {
+	font-size: 40px;
 }
 div {
-	width: 100px;
-	height: 100px;
-	background-color: black;
+	width: 80px;
+	height: 80px;
+	background-color: yellow;
 	float: left;
-}
-div:nth-child(n+3) {
-	background-color:red;
 }
 .red {
 	background-color: red;
 }
 .blue {
 	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.white {
+	background-color: white;
+}
+.tan {
+	background-color: rgb(240, 178, 122);
+}
+.brown {
+	background-color: rgb(100,40,31);
+}
+.yellow {
+	background-color: yellow;
+}
+.black {
+	background-color: black;
+}
+.circle1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+.circle2 {
+  height: 45px;
+  width: 45px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.circle3 {
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  border-radius: 50%;
+}
+.circle4 {
+  height: 35px;
+  width: 35px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.circle5 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle6 {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border-radius: 50%;
+}
+.oval1 {
+  height: 100px;
+  width: 200px;
+  background-color: teal;
+  border-radius: 50%;
+}
+.trapezoid1 {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid black;
+	border-right: 25px solid black;
+	height: 0;
+	width: 125px;
+}
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
+.parallelogram1 {
+	width: 300px;
+	height: 150px;
+	transform: skew(20deg);
+	background: white;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
 }
