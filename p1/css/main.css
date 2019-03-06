@@ -3,4 +3,18 @@ p {
 }
 body {
 	background-color: rgb(255, 251, 174);
+	font-variant: small-caps;
+	font-size: 20;
+	margin-left: 400;
+	margin-right: 400;
+}
+h1 {
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 70;
+}
+div {
+	height: 8;
+	width: 1100;
+	background-color: black;
 }
