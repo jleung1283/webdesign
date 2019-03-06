@@ -11,7 +11,14 @@ body {
 h1 {
 	font-variant: small-caps;
 	text-align: center;
-	font-size: 70;
+	font-size: 60;
+}
+h2 {
+	text-align: center;
+	font-size: 40;
+}
+h3 {
+	text-align: center;
 }
 div {
 	height: 8;
