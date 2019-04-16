@@ -1,0 +1,30 @@
+
+
+#list-name {
+	background-color: whitesmokes;
+}
+
+#bird-5 {
+	transition: all 2s ease;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.full {
+	width: 100vw;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0;
+	padding: 40vh 0 0 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .lem;
+	font-weight: bold;
+	transition: all 2s ease;
+}

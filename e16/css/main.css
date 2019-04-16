@@ -1,22 +1,63 @@
-
-
-#list-name {
-	background-color: whitesmokes;
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
 }
-
-#bird-5 {
-	transition: all 2s ease;
-}
-
-.tomato {
-	background-color: tomato;
-}
-
 .full {
 	width: 100vw;
 	height: 100vh;
 }
-
+#list-name {
+	background-color: whitesmoke;
+}
+#word-5 {
+	transition: all 2s ease;
+}
+#word-4 {
+	transition: all 2s ease;
+}
+#word-3 {
+	transition: all 2s ease;
+}
+#word-2 {
+	transition: all 2s ease;
+}
+#word-1 {
+	transition: all 2s ease;
+}
+.tomato {
+	background-color: tomato;
+}
+.black {
+	background-color: black;
+}
+.cyan {
+	background-color: cyan;
+}
+.white {
+	background-color: white;
+}
+.yellow {
+	background-color: yellow;
+}
+.pink {
+	background-color: pink;
+}
+.silver {
+	background-color: silver;
+}
+.purple {
+	background-color: purple;
+}
+.gold {
+	background-color: gold;
+}
+.green {
+	background-color: green;
+}
+#word-4 {
+	background-color: dodgerblue;
+}
 h1 {
 	font-size: 5em;
 	margin: 0;
@@ -24,7 +65,12 @@ h1 {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: .lem;
+	letter-spacing: .1em;
 	font-weight: bold;
 	transition: all 2s ease;
+
+}
+span {
+	transition: all 2s ease;
+	cursor: pointer;
 }
