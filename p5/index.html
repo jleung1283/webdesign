@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Run!</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<!--
+	<script type="text/javascript">
+
+function getMouseCoords(e) {
+  var e = e || window.event;
+  document.getElementById('msg').innerHTML = e.clientX + ', ' + 
+           e.clientY + '<br>' + e.screenX + ', ' + e.screenY;
+}
+
+
+var followCursor = (function() {
+  var s = document.createElement('div');
+  s.style.position = 'absolute';
+
+  return {
+    init: function() {
+      document.body.appendChild(s);
+    },
+
+    run: function(e) {
+      var e = e || window.event;
+      s.style.left  = (e.clientX - 5) + 'px';
+      s.style.top = (e.clientY - 5) + 'px';
+      getMouseCoords(e);
+    }
+  };
+}());
+
+window.onload = function() {
+  followCursor.init();
+  document.body.onmousemove = followCursor.run;
+}
+
+</script>
+-->
+<img id="image" src="img/mouse.png" style="width: 100px; height: 100px;">
+<img id="cheese" src="img/cheese.png" style="width: 100px; height: 100px;">
+<!--
+<div id="msg" style="width: 1500px; height: 670px; border: 1px solid blue;"></div>
+-->
