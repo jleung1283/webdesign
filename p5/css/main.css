@@ -35,3 +35,6 @@ body {
 	width:100%;
 	border: 1px solidblue;
 }
+selector {
+	cursor: none;
+}
